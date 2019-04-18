@@ -15,7 +15,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     publicPath: '',
-    filename: 'scripts.js',
+    filename: 'scripts.js'
   },
   plugins: [
     // The Mixer plugin hooks up all the ✨magic✨ for the development server
@@ -26,11 +26,11 @@ module.exports = {
       {
         context: 'src',
         from: '**/*',
-        to: path.resolve(__dirname, 'build'),
-      },
+        to: path.resolve(__dirname, 'build')
+      }
     ]),
     // CleanPlugin wipes the "build" directory before bundling to make sure
     // there aren't unnecessary files lying around and using up your quota.
-    new CleanPlugin('build'),
-  ],
+    new CleanPlugin('build')
+  ]
 };

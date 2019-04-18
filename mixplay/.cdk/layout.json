@@ -1,0 +1,387 @@
+[
+  {
+    "controlID": "lowButton",
+    "cost": 5,
+    "disabled": true,
+    "kind": "button",
+    "position": [
+      {
+        "size": "large",
+        "width": 10,
+        "height": 5,
+        "x": 0,
+        "y": 2
+      },
+      {
+        "size": "medium",
+        "x": 0,
+        "y": 0,
+        "width": 20,
+        "height": 4
+      },
+      {
+        "size": "small",
+        "x": 0,
+        "y": 5,
+        "width": 9,
+        "height": 4
+      }
+    ],
+    "progress": 0.5,
+    "text": "Hi!"
+  },
+  {
+    "kind": "button",
+    "controlID": "mediumButton",
+    "position": [
+      {
+        "size": "large",
+        "width": 10,
+        "height": 5,
+        "x": 0,
+        "y": 8
+      },
+      {
+        "size": "medium",
+        "x": 0,
+        "y": 5,
+        "width": 20,
+        "height": 4
+      },
+      {
+        "size": "small",
+        "x": 12,
+        "y": 5,
+        "width": 7,
+        "height": 4
+      }
+    ],
+    "text": "Now playing",
+    "cost": 50
+  },
+  {
+    "kind": "button",
+    "controlID": "highButton",
+    "position": [
+      {
+        "size": "large",
+        "width": 10,
+        "height": 5,
+        "x": 0,
+        "y": 14
+      },
+      {
+        "size": "medium",
+        "x": 0,
+        "y": 10,
+        "width": 20,
+        "height": 4
+      },
+      {
+        "size": "small",
+        "x": 22,
+        "y": 5,
+        "width": 8,
+        "height": 4
+      }
+    ],
+    "text": "Good Game!",
+    "cost": 100
+  },
+  {
+    "kind": "label",
+    "controlID": "headerLabel",
+    "position": [
+      {
+        "size": "large",
+        "x": 11,
+        "y": 3,
+        "width": 20,
+        "height": 6
+      },
+      {
+        "size": "medium",
+        "width": 17,
+        "height": 4,
+        "x": 16,
+        "y": 21
+      },
+      {
+        "size": "small",
+        "width": 20,
+        "height": 4,
+        "x": 5,
+        "y": 0
+      }
+    ],
+    "text": "Mixer Stream",
+    "bold": true,
+    "italic": true,
+    "textSize": "",
+    "underline": false
+  },
+  {
+    "kind": "textbox",
+    "controlID": "psnTextbox",
+    "position": [
+      {
+        "size": "large",
+        "width": 15,
+        "height": 4,
+        "x": 32,
+        "y": 4
+      },
+      {
+        "size": "medium",
+        "x": 25,
+        "y": 0,
+        "width": 20,
+        "height": 4
+      },
+      {
+        "size": "small",
+        "width": 15,
+        "height": 4,
+        "x": 8,
+        "y": 12
+      }
+    ],
+    "cost": 50,
+    "hasSubmit": true,
+    "placeholder": "Your PSN"
+  },
+  {
+    "kind": "textbox",
+    "controlID": "xboxliveTextbox",
+    "position": [
+      {
+        "size": "large",
+        "width": 15,
+        "height": 4,
+        "x": 32,
+        "y": 9
+      },
+      {
+        "size": "medium",
+        "x": 25,
+        "y": 5,
+        "width": 20,
+        "height": 4
+      },
+      {
+        "size": "small",
+        "width": 15,
+        "height": 4,
+        "x": 8,
+        "y": 18
+      }
+    ],
+    "cost": 50,
+    "placeholder": "Your XboxLive",
+    "hasSubmit": true
+  },
+  {
+    "kind": "textbox",
+    "controlID": "steamTextbox",
+    "position": [
+      {
+        "size": "large",
+        "x": 32,
+        "y": 14,
+        "width": 15,
+        "height": 4
+      },
+      {
+        "size": "medium",
+        "x": 25,
+        "y": 10,
+        "width": 20,
+        "height": 4
+      },
+      {
+        "size": "small",
+        "width": 15,
+        "height": 4,
+        "x": 8,
+        "y": 24
+      }
+    ],
+    "placeholder": "Your Steam",
+    "cost": 50,
+    "hasSubmit": true
+  },
+  {
+    "kind": "button",
+    "controlID": "Twitter",
+    "position": [
+      {
+        "size": "large",
+        "x": 11,
+        "y": 10,
+        "width": 6,
+        "height": 4
+      },
+      {
+        "size": "medium",
+        "width": 6,
+        "height": 4,
+        "x": 14,
+        "y": 15
+      },
+      {
+        "size": "small",
+        "width": 6,
+        "height": 4,
+        "x": 16,
+        "y": 30
+      }
+    ],
+    "text": "Twitter",
+    "cost": 10
+  },
+  {
+    "kind": "button",
+    "controlID": "Facebook",
+    "position": [
+      {
+        "size": "large",
+        "width": 6,
+        "height": 4,
+        "x": 11,
+        "y": 15
+      },
+      {
+        "size": "medium",
+        "width": 6,
+        "height": 4,
+        "x": 32,
+        "y": 15
+      },
+      {
+        "size": "small",
+        "width": 6,
+        "height": 4,
+        "x": 8,
+        "y": 30
+      }
+    ],
+    "text": "Facebook",
+    "cost": 10
+  },
+  {
+    "kind": "button",
+    "controlID": "Youtube",
+    "position": [
+      {
+        "size": "large",
+        "width": 6,
+        "height": 4,
+        "x": 18,
+        "y": 10
+      },
+      {
+        "size": "medium",
+        "width": 6,
+        "height": 4,
+        "x": 0,
+        "y": 15
+      },
+      {
+        "size": "small",
+        "width": 6,
+        "height": 4,
+        "x": 24,
+        "y": 36
+      }
+    ],
+    "text": "Youtube",
+    "cost": 10
+  },
+  {
+    "kind": "button",
+    "controlID": "Twitch",
+    "position": [
+      {
+        "size": "large",
+        "width": 6,
+        "height": 4,
+        "x": 18,
+        "y": 15
+      },
+      {
+        "size": "medium",
+        "width": 6,
+        "height": 4,
+        "x": 39,
+        "y": 15
+      },
+      {
+        "size": "small",
+        "width": 6,
+        "height": 4,
+        "x": 16,
+        "y": 36
+      }
+    ],
+    "text": "Twitch",
+    "cost": 10
+  },
+  {
+    "kind": "button",
+    "controlID": "Discord",
+    "position": [
+      {
+        "size": "large",
+        "width": 6,
+        "height": 4,
+        "x": 25,
+        "y": 10
+      },
+      {
+        "size": "medium",
+        "width": 6,
+        "height": 4,
+        "x": 7,
+        "y": 15
+      },
+      {
+        "size": "small",
+        "width": 6,
+        "height": 4,
+        "x": 8,
+        "y": 36
+      }
+    ],
+    "text": "Discord",
+    "cost": 10
+  },
+  {
+    "kind": "button",
+    "controlID": "Google",
+    "position": [
+      {
+        "size": "large",
+        "width": 6,
+        "height": 4,
+        "x": 25,
+        "y": 15
+      },
+      {
+        "size": "medium",
+        "width": 6,
+        "height": 4,
+        "x": 25,
+        "y": 15
+      },
+      {
+        "size": "small",
+        "width": 6,
+        "height": 4,
+        "x": 0,
+        "y": 36
+      }
+    ],
+    "text": "Google",
+    "cost": 10
+  }
+]
