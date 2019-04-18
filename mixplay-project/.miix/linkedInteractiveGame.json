@@ -1,0 +1,25 @@
+{
+  "coverUrl": "https://uploads.mixer.com/cover/mk9i1ktw-343944.jpg",
+  "createdAt": "2019-04-14T20:59:27.000Z",
+  "deletedAt": null,
+  "description": null,
+  "hasPublishedVersions": false,
+  "id": 343944,
+  "installation": null,
+  "name": "Mixplay Project",
+  "ownerId": 8592278,
+  "typeId": 130909,
+  "updatedAt": "2019-04-14T21:00:36.000Z",
+  "versions": [
+    {
+      "changelog": "Initial release",
+      "createdAt": "2019-04-14T20:59:27.000Z",
+      "id": 349851,
+      "installation": null,
+      "state": "draft",
+      "updatedAt": "2019-04-14T21:00:51.000Z",
+      "version": "0.1.0",
+      "versionOrder": 256
+    }
+  ]
+}
